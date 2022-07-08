@@ -19,10 +19,7 @@ public class WordCount {
 
     // allow user to pick file to exam via GUI.
     // allow multiple picks
-    // some time the code get bug
-    //when the bug solve you got that recovery 
-    // it is beneficial to work 
-    //Akash Niwane
+    // this program is used to count the words..
     public static void countWordsViaGUI() {
         setLookAndFeel();
         try {
@@ -59,7 +56,8 @@ public class WordCount {
     }
 
 
-    // determine distinct words in a file and frequency of each word with a Map
+    // determine distinct words in a file and
+    // frequency of each word with a Map
     private static Map<String, Integer> countWordsWithMap(Scanner fileScanner) {
 
 
@@ -87,7 +85,7 @@ public class WordCount {
     // count words in files of various sizes
     //Changes done
     private static void performExp() {
-        String[] smallerWorks = {"smallWords.txt", "2BR02B.txt", "Alice.txt", "SherlockHolmes.txt"};;
+        String[] smallerWorks = {"smallWords.txt", "2BR02B.txt", "Akash.txt", "SaitejaBoyapati.txt"};;
         String[] bigFile = {"ciaFactBook2008.txt"};
         timingExpWithArrayList(smallerWorks, 50);
         timingExpWithArrayList(bigFile, 3);
@@ -124,8 +122,7 @@ public class WordCount {
     }
 
 
-    // pre: titles != null, elements of titles refer to files in the
-    // same path as this program, numExp >= 0
+    // pre: titles != null, elements of titles refer to files in the same path as this program, numExp >= 0
     // read words from files and print average time to cound words.
     private static void timingExpWithArrayList(String[] titles, int numExp) {
         try {
