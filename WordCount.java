@@ -19,6 +19,10 @@ public class WordCount {
 
     // allow user to pick file to exam via GUI.
     // allow multiple picks
+    // some time the code get bug
+    //when the bug solve you got that recovery 
+    // it is beneficial to work 
+    //Akash Niwane
     public static void countWordsViaGUI() {
         setLookAndFeel();
         try {
@@ -78,8 +82,10 @@ public class WordCount {
     }
 
 
-    // perform a series of experiments on files. Determine average time to
+    // perform a series of experiments on files.
+    // Determine average time to
     // count words in files of various sizes
+    //Changes done
     private static void performExp() {
         String[] smallerWorks = {"smallWords.txt", "2BR02B.txt", "Alice.txt", "SherlockHolmes.txt"};;
         String[] bigFile = {"ciaFactBook2008.txt"};
