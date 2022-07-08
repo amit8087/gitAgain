@@ -80,8 +80,10 @@ public class WordCount {
     }
 
 
-    // perform a series of experiments on files. Determine average time to
+    // perform a series of experiments on files.
+    // Determine average time to
     // count words in files of various sizes
+    //Changes done
     private static void performExp() {
         String[] smallerWorks = {"smallWords.txt", "2BR02B.txt", "Akash.txt", "SaitejaBoyapati.txt"};;
         String[] bigFile = {"ciaFactBook2008.txt"};
